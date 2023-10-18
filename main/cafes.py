@@ -5,6 +5,9 @@ import base64
 import io
 import datetime
 import pywhatkit
+import os
+
+os.environ['DISPLAY'] = ':0'
 
 st.set_page_config(layout="wide", page_title="Coffees", page_icon="./img/cafe5.png")
 
