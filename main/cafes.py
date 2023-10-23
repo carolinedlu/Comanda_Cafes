@@ -6,7 +6,7 @@ import io
 import datetime
 import os
 
-os.environ['DISPLAY'] = ':0'
+# os.environ['DISPLAY'] = ':0'
 import pywhatkit
 
 st.set_page_config(layout="wide", page_title="Coffees", page_icon="./img/cafe5.png")
